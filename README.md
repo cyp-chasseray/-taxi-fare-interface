@@ -44,21 +44,3 @@ python -m http.server 5001
 ```
 
 Then go to [http://localhost:5001](http://localhost:5001)
-
-## Deploy on GitHub Pages
-
-Your app is ready to go live!
-
-Create a new branch `gh-pages`:
-
-```bash
-git checkout -b gh-pages
-```
-
-Deploy your app on GitHub:
-
-```bash
-git push origin gh-pages
-```
-
-Your app will be visible shortly at `https://YOUR_GITHUB_NICKNAME.github.io/taxi-fare-interface`.
