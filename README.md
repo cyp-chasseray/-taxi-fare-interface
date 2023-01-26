@@ -22,13 +22,11 @@ Update the `script.js` to get prediction from your own API hosted on GCP (make s
 const taxiFareApiUrl = 'https://YOUR_API_URL/predict';
 ```
 
-Hint: alternatively, you may use this Le Wagon Prediction API if you do not have one in production:
+Alternatively, you may use this Le Wagon Prediction API if you do not have one in production:
 
 `https://taxifare.lewagon.ai/predict`
 
-_Note: the following setup steps are optional as you can use Mapbox credentials given by Le Wagon_
-
-### MapBox Maps and Directions APIs (optional)
+### MapBox Maps and Directions APIs 
 
 - Go to [MapBox](https://www.mapbox.com/) and create an account
 - Go to your [Account](https://account.mapbox.com/) and grab your `Access Token` then set it into the `script.js`
